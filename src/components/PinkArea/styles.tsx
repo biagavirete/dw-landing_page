@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 6.2rem;
-  width: 60rem;
-  height: auto;
+  height: 35rem;
   border-radius: 3.125rem;
   background: rgba(240, 99, 184, 0.15);
-  padding: 0 3rem;
 
   display: flex;
   flex-direction: row;
@@ -18,11 +16,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24rem;
-    margin-right: 3rem;
+    /* width: 28rem; */
 
-    width: 29.81rem;
-    height: 31.5rem;
+    img {
+      width: 29.81rem;
+      height: 31.5rem;
+      margin-right: 3.875rem;
+    }
   }
 
   .text-container {
@@ -31,7 +31,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     text-align: start;
-    width: 36rem;
+    padding: 7.8rem 5.75rem 7.8rem 0;
 
     h3 {
       font-size: 2.5rem;
@@ -41,6 +41,7 @@ export const Container = styled.div`
     p {
       font-size: 1.125rem;
       color: #4B5D68;
+      line-height: 1.8rem;
     }
   }
 `;
