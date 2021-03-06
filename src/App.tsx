@@ -1,10 +1,17 @@
 import React from 'react';
+import Button from './components/Button';
+import NavBar from './components/Navbar';
+import GlobalStyles from './GlobalStyles';
+import { Container } from './styles';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <GlobalStyles />
+      <Container>
+        <NavBar />
+      </Container>
+    </>
   );
 }
 
