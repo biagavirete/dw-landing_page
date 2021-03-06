@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { ButtonProps } from '../Button';
 
 export const ButtonStyled = styled.button<ButtonProps>`
-  width: auto;
+  width: fit-content;
   min-width: 13rem;
   height: 3.5rem;
   border-radius: 3rem;
@@ -16,6 +16,7 @@ export const ButtonStyled = styled.button<ButtonProps>`
   font-size: 1rem;
   border: 0;
   color: #fff;
+  font-weight: 900;
   background-color: ${(props: ButtonProps) => props.backgroundColor};
 
   svg {
