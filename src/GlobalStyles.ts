@@ -10,14 +10,13 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw; 
+    height: 100vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #fff;
     color: #4B5D68;
-    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background-color: #F6FAFD;
   }
 
   h1, h2, h3, h4, h5, h6 {
