@@ -19,7 +19,7 @@ export const Container = styled.header`
   nav {
     display: flex;
     flex-direction: row;
-    margin-left: 6rem;
+    margin-left: 8rem;
 
     ul {
       list-style-type: none;

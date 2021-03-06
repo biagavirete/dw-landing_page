@@ -23,7 +23,7 @@ const NavBar = () => {
         </ul>
       </nav>
 
-      <Button isShadowed>Request demo <BsArrowRight size={20} color="#9C69E2" /></Button>
+      <Button isShadowed>Request demo <BsArrowRight size={25} color="#9C69E2" /></Button>
     </Container>
   )
 }
