@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { ButtonProps } from './Button';
+import { ButtonProps } from '../Button';
 
 export const ButtonStyled = styled.button<ButtonProps>`
   width: auto;
