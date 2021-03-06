@@ -1,15 +1,16 @@
 import React from 'react';
-import Button from './components/Button';
 import NavBar from './components/Navbar';
-import GlobalStyles from './GlobalStyles';
+import Hero from './components/Hero';
 import { Container } from './styles';
+import PinkArea from './components/PinkArea';
 
 function App() {
   return (
     <>
-      <GlobalStyles />
       <Container>
         <NavBar />
+        <Hero />
+        <PinkArea />
       </Container>
     </>
   );
