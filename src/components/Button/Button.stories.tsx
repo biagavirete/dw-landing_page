@@ -17,6 +17,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   isShadowed: false,
   children: 'Primary button',
+  backgroundColor: '#F063B8'
 };
 
 export const Shadowed = Template.bind({});
