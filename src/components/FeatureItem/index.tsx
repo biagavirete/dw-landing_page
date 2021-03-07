@@ -3,10 +3,10 @@ import LearnMore from '../LearnMore';
 
 import { Container } from './styles';
 
-interface FeatureItemProps {
+export interface FeatureItemProps {
   title: string;
   children: any;
-  backgroundImage: any;
+  backgroundImage?: any;
   image: any;
 }
 
