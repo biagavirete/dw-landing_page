@@ -1,23 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: 6rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 42rem;
 
   .text-container {
-    width: 60%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    z-index: 2;
-    position: relative;
+    z-index: 10;
 
     h1 {
       font-size: 5rem;
       font-weight: 700;
       color: #212353;
       margin-bottom: 0;
+      
     }
 
     p {
@@ -33,12 +34,9 @@ export const Container = styled.div`
   }
 
   .image-container {
-    margin-top: 15rem;
-    width: 55rem;
-    height: 29rem;
-    z-index: 1;
-    position: absolute;
-    top: 7.5rem;
-    right: 21.875rem;
+    margin-top: 10rem;
+    width: 50rem;
+    margin-left: -25rem;   
+
   }
 `;
