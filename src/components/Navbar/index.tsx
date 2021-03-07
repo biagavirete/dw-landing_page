@@ -9,17 +9,17 @@ const NavBar = () => {
 
   return (
     <Container>
-      <LogoSvg />
+      <LogoSvg data-testid="logo" />
       <nav>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Help</a></li>
-          <li><a href="#">Feature</a></li>
+          <li><a href="#">Features</a></li>
           <li><a href="#">Signup</a></li>
         </ul>
       </nav>
 
-      <Button isShadowed>Request demo <BsArrowRight size={25} color="#9C69E2" /></Button>
+      <Button isShadowed data-testid="button">Request demo <BsArrowRight size={25} color="#9C69E2" /></Button>
     </Container>
   )
 }
