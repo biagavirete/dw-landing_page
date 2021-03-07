@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-interface TestimonialItemProps {
+export interface TestimonialItemProps {
   name: string;
   title: string;
   avatar: any;
