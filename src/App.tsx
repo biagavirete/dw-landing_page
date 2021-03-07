@@ -5,6 +5,7 @@ import { Container } from './styles';
 import PinkArea from './components/PinkArea';
 import Features from './components/Features';
 import Bottom from './components/Bottom';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <PinkArea />
         <Features />
+        <Testimonials />
         <hr />
         <Bottom />
       </Container>
