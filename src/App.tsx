@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './views/Hero';
 import { Container } from './styles';
-import PinkArea from './components/PinkArea';
-import Features from './components/Features';
-import Bottom from './components/Bottom';
-import Testimonials from './components/Testimonials';
+import PinkArea from './views/PinkArea';
+import Features from './views/Features';
+import Bottom from './views/Bottom';
+import Testimonials from './views/Testimonials';
 
 function App() {
   return (
