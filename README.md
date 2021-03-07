@@ -3,7 +3,7 @@
 React project using Typescript and styled-components, developed during Campinas Tech Talents bootcamp.
 The idea was to clone a given interface and test all of the components created.
 
-This projects uses <a href="https://storybook.js.org">Storybook</a> to document components and its props, an useful way to reuse and virtually test them.
+This project uses <a href="https://storybook.js.org">Storybook</a> to document components and their props, an useful way to reuse and virtually test them. To check this out run Storybook following the directions below and access <a href="http://localhost:6006/">http://localhost:6006/</a>.
 
 ## Getting started
 
@@ -34,7 +34,7 @@ $  yarn start
 $  yarn tests
 ```
 
-> Running tests
+> Running Storybook
 
 ```bash
 $  yarn run storybook
