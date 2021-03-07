@@ -11,8 +11,8 @@ export default {
 
 const Template: Story<FeatureItemProps> = (args) => <FeatureItem {...args} />;
 
-export const FeaturesItem = Template.bind({});
-FeaturesItem.args = {
+export const Regular = Template.bind({});
+Regular.args = {
   title: 'Título',
   children: <p>Don’t worry if your data is very large, the Data Warehoue provides a search engine, which
   is useful for making it easier to find data effectively saving time.</p>,

@@ -10,8 +10,8 @@ export default {
 
 const Template: Story<TestimonialItemProps> = (args) => <TestimonialItem {...args} />;
 
-export const Testimonial = Template.bind({});
-Testimonial.args = {
+export const Regular = Template.bind({});
+Regular.args = {
   name: 'John Doe',
   title: 'CEO at JDs Company',
   avatar: ManAvatar,
