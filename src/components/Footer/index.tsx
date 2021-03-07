@@ -1,5 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import Logo from '../../assets/Logo.svg';
+import CircledIcon from '../CircledIcon';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import Balloon from '../../assets/balloon.png';
+import LogoSvg from '../SVGs/Logo';
 import { Container, LogoArea, AboutArea, HelpArea, SocialArea } from './styles';
 
 const Footer = () => {
@@ -7,7 +11,7 @@ const Footer = () => {
     <Container>
       <LogoArea>
         <div className="top">
-          <img src={Logo} alt="Logo" />
+          <LogoSvg />
           <strong>DataWarehouse</strong>
         </div>
         <div className="center">
@@ -74,6 +78,49 @@ const Footer = () => {
         <h5>
           Social Media
           </h5>
+        <div className="sm-area">
+          <CircledIcon
+            width="50px"
+            height="50px"
+            backgroundColor="#212353"
+            opacity="0.1"
+            href="https://www.facebook.com/"
+          >
+            <FaFacebookF color='#fff' size={20} />
+          </CircledIcon>
+
+          <CircledIcon
+            width="50px"
+            height="50px"
+            backgroundColor="#212353"
+            opacity="0.1"
+            href="https://www.twitter.com/"
+          >
+            <FaTwitter color='#fff' size={20} />
+          </CircledIcon>
+
+          <CircledIcon
+            width="50px"
+            height="50px"
+            backgroundColor="#212353"
+            opacity="0.1"
+            href="https://www.instagram.com/"
+          >
+            <FaInstagram color='#fff' size={20} />
+          </CircledIcon>
+        </div>
+
+        <div className="last-icon">
+          <CircledIcon
+            width="60px"
+            height="60px"
+            backgroundColor="#e0caff"
+            href="#"
+          >
+            <img src={Balloon} alt="baloon" />
+          </CircledIcon>
+
+        </div>
       </SocialArea>
 
     </Container>

@@ -39,7 +39,7 @@ export const LogoArea = styled.div`
     flex-direction: row;
     margin-bottom: 3rem;
 
-    img {
+    svg {
       width: 3rem;
       height: 2rem;
       margin-right: 1.25rem;
@@ -67,9 +67,11 @@ export const LogoArea = styled.div`
   }
 
   .bottom {
+    width: 100%;
     margin-top: 7rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 
     p {
       font-size: 0.75rem;
@@ -84,10 +86,29 @@ export const AboutArea = styled.div`
 `;
 
 export const HelpArea = styled.div`
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 `;
 
 export const SocialArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 
+  .sm-area {
+    display: flex;
+    flex-direction: row;
+
+    a {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .last-icon {
+    margin-top: 14rem;
+    display: flex;
+    justify-content: flex-end;
+  }
 `;
 
