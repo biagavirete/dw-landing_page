@@ -19,8 +19,8 @@ Primary.args = {
   children: 'Primary button',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Shadowed = Template.bind({});
+Shadowed.args = {
   isShadowed: true,
   children: 'Secondary button',
 };
