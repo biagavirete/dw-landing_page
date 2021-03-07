@@ -23,7 +23,7 @@ export const Container = styled.div`
 
     .testimonials-area {
       margin-top: 3rem;
-      margin-left: 4rem;
+      margin-left: 4.8rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -31,6 +31,7 @@ export const Container = styled.div`
     }
 
     .arrows-area {
+      margin-top: 2rem;
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
