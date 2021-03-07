@@ -6,7 +6,7 @@ import { Container } from './styles';
 const LearnMore = () => {
   return (
     <Container>
-      <a href="#">Learn more <BsArrowRight color="#9C69E2" size={24} /></a>
+      <a href="#" data-testid="anchor">Learn more <BsArrowRight color="#9C69E2" size={24} /></a>
     </Container>
   )
 }
