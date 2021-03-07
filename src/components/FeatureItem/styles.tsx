@@ -8,6 +8,7 @@ export const Container = styled.div`
     align-items: center;
     justify-items: center;
     margin-bottom: 6.2rem;
+    margin-left: 4rem;
 
     .bg {
       z-index: 1;

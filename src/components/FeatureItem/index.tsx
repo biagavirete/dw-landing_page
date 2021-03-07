@@ -17,7 +17,7 @@ const FeatureItem = (props: FeatureItemProps) => {
         {props.backgroundImage}
       </div>
       <div className="image">
-        <img src={props.image} />
+        <img src={props.image} alt={props.title} />
       </div>
       <div className="text">
         <h5>{props.title}</h5>
