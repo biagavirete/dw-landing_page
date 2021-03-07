@@ -101,7 +101,7 @@ export const SocialArea = styled.div`
     flex-direction: row;
 
     a {
-      margin-right: 0.5rem;
+      margin-right: 0.8rem;
     }
   }
 
