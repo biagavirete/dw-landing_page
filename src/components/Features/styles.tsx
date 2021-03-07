@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import Logo from '../../assets/search.svg'
 
 export const Container = styled.div`
   margin-top: 6.2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `;
 
 export const Title = styled.div`
@@ -29,7 +29,6 @@ export const Title = styled.div`
 export const Details = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
 
   h5 {
     font-size: 1.5rem;
