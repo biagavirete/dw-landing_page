@@ -31,7 +31,7 @@ $  yarn start
 > Running tests
 
 ```bash
-$  yarn tests
+$  yarn test
 ```
 
 > Running Storybook
